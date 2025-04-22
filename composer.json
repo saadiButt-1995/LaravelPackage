@@ -1,0 +1,19 @@
+{
+    "name": "saad/laravel-package",
+    "description": "this is example of an laravel package system",
+    "type": "project",
+    "require": {
+        "laravel/framework": "^9.52"
+    },
+    "autoload": {
+        "psr-4": {
+            "Saad\\LaravelPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "saad Butt",
+            "email": "saad.maqsood@sukuktech.com"
+        }
+    ]
+}
