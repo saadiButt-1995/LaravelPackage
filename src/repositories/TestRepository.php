@@ -7,4 +7,8 @@ class TestRepository {
   public function getAll() {
     return Test::all();
   }
+
+  public function getActiveTest() {
+    return Test::where("status", 1)->get();
+  }
 }
