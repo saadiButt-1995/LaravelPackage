@@ -15,5 +15,7 @@
             "name": "saad Butt",
             "email": "saad.maqsood@sukuktech.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
+
 }
